@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Generador de contraseñas</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body>
+
+<div id="contenedor">
+	<form>
+		<div id="titulo">
+            Generador de contraseña
+		</div>
+		<ul>
+	    	<li>
+	      		<label for="name">Longitud de la contraseña:</label>
+	      		<input type="number" id="log" name="log_pasword" value="1">
+	    	</li>
+	    	<li>
+	      		<p>Incluir:</p>
+	      	</li>
+	      	<li>
+	      		
+	      		<label for="may">Mayusculas:</label>
+	     		<input type="checkbox" id="may" name="mayusculas">
+	     	</li>
+	     	<li>
+	     		<label for="min">Minusculas:</label>
+	     		<input type="checkbox" id="min" name="minusculas">
+	     	</li>
+	     	<li>
+	     		<label for="esp">Caracteres especiales:</label>
+	     		<input type="checkbox" id="esp" name="caracteres_especiales">
+	     	</li>
+	     	<li>
+	     		<label for="num">Numeros:</label>
+	     		<input type="checkbox" id="num" name="numero">
+	    	</li>
+	    	<li>
+	    		<input type="button" value="Aceptar" id="btn" onclick="Password()">
+	    	</li>
+	    	<li>
+	    		<p id="contraseña">Su contraseña es: </p>
+	    	</li>
+	 	</ul>
+		
+		
+	</form>
+</div>
+
+
+<script type="text/javascript" src="js.js"></script>
+</body>
+</html>
